@@ -1,0 +1,177 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #E50F9C;
+    height: 6em;
+    padding-top: 10px;
+}
+
+section img {
+    width: 100%;
+}
+
+nav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+section {
+    margin: 50px 0px;
+}
+
+.section-pink {
+    background-color: #E50F9C;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.section-pink a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #E50F9C;
+    border-radius: 1em;
+    padding: 20px 40px;
+    margin: 0px 100px;
+    font-weight: bold; 
+    font-family: Filson Pro;
+}
+
+.section-blue {
+    background-color: #1B4DB9;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.section-blue a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #1B4DB9;
+    border-radius: 1em;
+    padding: 20px 40px;
+    margin: 0px 100px;
+    font-weight: bold; 
+    font-family: Filson Pro;
+}
+
+.section-black {
+    background-color: #292929;
+    color: #ffffff;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+.section-black a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #292929;
+    border-radius: 1em;
+    padding: 20px 40px;
+    margin: 0px 100px;
+    font-weight: bold; 
+    font-family: Filson Pro;
+}
+
+section a {
+    margin: 50px 100px;
+}
+
+p {
+    margin: 50px 100px;
+}
+
+a {
+    font-family: Acumin Pro;
+    color: #E50F9C;
+}
+
+.button-bottom {
+    text-decoration: none;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 1em;
+    margin: 100px;
+    padding: 40px;
+    font-weight: bold; 
+    font-family: Filson Pro;
+}
+
+h2 {
+    font-family: Filson Pro;
+    margin: 50px 100px;
+}
+
+h1 {
+    font-family: Filson Pro;
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 10px 0px 10px 0px;
+}
+
+p {
+    font-family: Acumin Pro;
+}
+
+img {
+    width: 100%;
+}
+
+figure h2 {
+    font-size: 2.5em;
+}
+
+.box1 a {
+    text-decoration: none;
+}
+
+.box1 a:visited {
+    color: #E50F9C;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 40%;
+    margin: 10px 0px;
+}
+
+footer h2 {
+    font-family: Filson Pro;
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+@font-face {
+	font-family: 'AcuminVariable';
+	src: url('../assets/AcuminVariableConcept.otf');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+  font-family: 'FilsonPro';
+  src: url('../assets/FilsonProRegular.otf');
+  font-style: normal;
+  font-weight: 300;
+}
